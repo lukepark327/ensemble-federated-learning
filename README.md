@@ -40,5 +40,8 @@ Using [pytorch docker](https://hub.docker.com/r/pytorch/pytorch/tags?page=1&orde
 
 ```
 $ docker pull pytorch/pytorch:1.7.0-cuda11.0-cudnn8-devel
-$ nvidia-docker run -i -t --name pytorch -v <HOMEPATH>:/workspace pytorch/pytorch:1.7.0-cuda11.0-cudnn8-devel /bin/bash
+$ nvidia-docker run -i -t --name pytorch -v <HOME-PATH>:/workspace pytorch/pytorch:1.7.0-cuda11.0-cudnn8-devel /bin/bash
+```
+```
+$ nvidia-docker exec -it <CONTAINER-ID> /bin/bash
 ```
