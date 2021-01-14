@@ -1,6 +1,14 @@
 # ensemble-federated-learning
 Decentralized Federated Learning based-on Ensemble Paradigm
 
+## TODO
+
+- [ ] Visualization : loss field, acc/err graphs, et al.
+
+# Contact
+
+:email: lukepark327@gmail.com
+
 ---
 
 # Environment
