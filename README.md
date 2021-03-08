@@ -1,8 +1,16 @@
 # ensemble-federated-learning
 Decentralized Federated Learning based-on Ensemble Paradigm
 
+# How to Run
+
+```
+$ cd src
+$ runipy simul.ipynb 
+```
+
 ## TODO
 
+- [ ] Fix seed
 - [ ] Visualization : loss field, acc/err graphs, et al.
 
 # Contact
@@ -56,9 +64,3 @@ $ nvidia-docker run -i -t --name pytorch -v <HOME-PATH>:/workspace pytorch/pytor
 ```
 $ nvidia-docker exec -it <CONTAINER-ID> /bin/bash
 ```
-
-<!--
-```
-jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
-```
--->
