@@ -12,6 +12,7 @@ $ runipy simul.ipynb
 
 - [ ] Fix seed
 - [ ] Visualization : loss field, acc/err graphs, et al.
+- [ ] Logging elapsed time
 
 # Contact
 
